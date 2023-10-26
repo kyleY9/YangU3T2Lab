@@ -35,9 +35,9 @@ public class Bill {
         } else if (customers >= 4) {
             totalCost *= 1.27;
         } else if (customers >= 2) {
-            totalCost = totalCost*1.25;
+            totalCost *=1.25;
         } else {
-            totalCost = totalCost*1.2;
+            totalCost *= 1.2;
         }
         tipAdded = true;
         return true;
